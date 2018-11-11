@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This page is created to improve my JS gaming and webpage design techniques.">
+  	<meta name="keywords" content="JS, Gaming, HTML, Snake">
+  	<meta name="author" content="Barış Batuhan Topal">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<!-- JS FILES HERE  -->
+  	<script src="../js/controller.js"></script>
+
+  	<!-- CSS FILES HERE -->
+  	<link rel="stylesheet" type="text/css" href="../css/d-index.css">
+
+</head>
+	<title> Coding'n Gaming </title>
+<body>
+
+	<div class="top">
+		<div class="topbar" style="width:40%" onclick="direct('home')">	
+			<img id="logo" src="../img/logo3.png">
+		</div>
+		<div class="topbar">
+			<div class="dropBtn"> Group Games </div>
+			<div class="dropCnt">
+				<div class="dropInside" onclick="direct('home')"> Movie Guessing </div>
+			</div>
+		</div>
+		<div class="topbar"> 
+			<div class="dropBtn"> PC Games </div>
+			<div class="dropCnt">
+				<div class="dropInside" onclick="direct('snake')"> Snake </div>
+				<div class="dropInside" onclick="direct('bird')"> Flappy Bird </div>
+				<div class="dropInside" onclick="direct('frog')"> Frog </div>
+				<div class="dropInside" onclick="direct('pong')"> Pong </div>
+			</div>
+		</div>
+		<div class="topbar" onclick="direct('home')"> About Me </div>
+	</div>
+
+	<div class="middle">
+		<div id="home">		
+			Hi, 
+			<br>
+			This page is designed to collect my whole JS gaming works into one platform that can be
+			reached through this website adress. 
+			<br>
+			This webpage includes some single- or multiplayer PC games such as snake, pong, flying bird 
+			etc. and also has helper platforms for playing games with your friends like random movie 
+			selector from IMDB database.
+			<br>
+			If I have a new work that will be displayed in the page, the site will be updated.
+			<br>
+			Thanks for visiting :)
+			<br>
+			<br>
+			Note: For a better performance, please play in maximized window!
+		</div>
+
+		<div id="about"></div>
+
+		<iframe id="frame" src="" style="width:100%; height: 100%; margin:0px; padding:0px; border:0px; display:none"></iframe>
+	</div>
+
+	<div class="bottom">
+		<div class="linksbar">
+			<div style="width:33.3%; float:left;"> Our Links:</div>
+			<div style="width:33.3%; float:left;" onclick="window.location.href=''">
+				<img  id="github" src="../img/github.png">
+			</div>
+			<div style="width:33.3%; float:left;" onclick="window.location.href='https://tr.linkedin.com/in/barisbatuhan'">
+				<img id="linkedin" src="../img/linkedin.png">
+			</div>
+		</div>
+		
+		<div class="creditsbar">
+			<div style="width:50%; float:left;"> Credits: </div>
+			<div style="width:50%; float:left;" onclick="window.location.href='http://www.logomakr.com'">
+				<img id="logomakr" src="../img/LogoMakr.png">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

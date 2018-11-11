@@ -1,0 +1,129 @@
+
+body{
+	background-color: lightgray;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: hidden;
+}
+
+#home{
+	display:block;
+	font-size: 2.5vh;
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 200%;
+	color: black;
+	text-align: center;
+	font-family: Courier;
+	padding-top:  5%;
+}
+
+#about{
+	display:none;
+}
+
+#logo{
+	margin-bottom: 0.5%;
+	max-height:85%; 
+	max-width:85%;
+	vertical-align: middle;
+}
+
+#github{
+	max-height:65%; 
+	max-width:65%;
+	margin-bottom: 2%;
+	vertical-align: middle;
+}
+
+#linkedin{
+	max-height:60%; 
+	max-width:60%;
+	margin-bottom: 0.5%;
+	vertical-align: middle;
+}
+
+#logomakr{
+	max-height:40%; 
+	max-width:40%;
+	vertical-align: middle;
+	margin-bottom: 1%;
+}
+
+.top{
+	display: flex;
+	height: 9vh;
+	margin-bottom: 1%;
+}
+
+.middle{
+	height: 79vh;
+	background-color: darkgray;
+	margin-bottom: 1%;
+	border:0px;
+}
+
+.bottom{
+	display: flex;
+	height: 6vh;
+}
+
+.topbar{
+	width: 20%;
+	float:left;
+	background-color: #5997E7;
+	text-align: center;
+	color: lightgray;
+	font-size: 3vh;
+	line-height: 300%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topbar:hover{
+	background-color: #82B35F;
+}
+
+.topbar:active{
+	background-color: #8CC167;
+}
+
+.dropCnt {
+    display: none;
+    width:100%;
+    position: absolute;
+    background-color: lightgray;
+    color: #373737;
+    font-size: 80%;
+}
+
+.topbar:hover .dropCnt{
+		display:block;
+}
+
+.dropInside:hover{
+	background-color: gray;
+}
+
+.linksbar{
+	background-color: #849AB0;
+	text-align: center;
+	margin-right: 2px;
+	float:left;
+	width: 50%;
+	font-size: 3vh;
+	line-height: 200%;
+	color: #304152;
+}
+
+.creditsbar{
+	background-color: #849AB0;
+	text-align: center;
+	margin-left: 2px;
+	float:left;
+	width: 50%;
+	font-size: 3vh;
+	line-height: 200%;
+	color: #304152;
+}

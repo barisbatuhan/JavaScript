@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script src="js/jquery.js"></script>
+        <link rel="stylesheet" href="css/mygame.css">
+        <script src = "js/firstpart.js"></script>
+        <script src = "js/divadd.js"></script>
+        <script src = "js/variables.js"></script>
+        <script src = "js/allmoves.js"></script>
+
+    </head>
+    <body onload="Inactivate()">
+        <div id="preview">
+            <div align="center" style=" line-height:3vh; padding-top:30px;width:50%; margin-left:20.5%; margin-top:15%;border:1px solid black;background-color:grey; margin-bottom:20px; padding-left: 5%; padding-right: 5%">
+            This game is a simple snake game with both single and multiplayer choices. 
+            <br> To play, please choose the options preferred by you.
+            <br> Single Player: Game can be played with W, A, S, D keys. 
+            <br> Multi Player: Red Snake with arrow keys, 
+            <br> Green Snake with W, A, S, D keys. <br><br>
+            </div>
+            <button type="button" onclick="firstpass()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px; padding-left: 5%; padding-right: 5%">Got It!</button>
+        </div>
+        <div id="first"> 
+            <div align="center" style="height:50px; line-height:50px; width:50%; margin-left:25%; margin-top:15%;border:1px solid black;background-color:grey; margin-bottom:20px">Please choose number of rows:</div>
+            <button type="button" onclick="h10(); fsubmit()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">10</button>
+            <button type="button" onclick="h20(); fsubmit()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">20</button>
+            <button type="button" onclick="h30(); fsubmit()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">30</button>
+        </div>
+        <div id ="second">
+            <div align="center" style="height:50px;  margin-top:15%; line-height:50px; width:50%; margin-left:25%; border:1px solid black;background-color:grey; margin-bottom:20px">Please choose one of the choices:</div>
+            <button type="button" onclick="HvsW(); Next()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">Height is double of width</button>
+            <button type="button" onclick="HW(); Next()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">Height is equal to width</button>
+            <button type="button" onclick="WvsH(); Next()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">Height is half of width</button>
+        </div>
+        <div id="third">
+            <div align="center" style="height:50px;  margin-top:15%; line-height:50px; width:50%; margin-left:25%; border:1px solid black;background-color:grey; margin-bottom:20px">Please choose either single or multiplayer:</div>
+            <button type="button" onclick="SingleP(); Submition()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">Single Player</button>
+            <button type="button" onclick="Submition()" align="center" style="height:50px; margin-left:25%; width:50%; border:1px solid black; background-color:green; margin-bottom:20px">Multi Player</button>
+        </div>
+        <div id="later" >
+            <button type="button" id="btn1" class="btn" onclick="Start()" style="height:30px; border:1px solid black;margin-right:5px; float:left; background-color:green; margin-bottom:5px">Press to Pause</button>
+            <button type="button" class="mainmenu" onclick="MainMenu()" style="height:30px; margin-left:none; border:1px solid black; float:left(); background-color:green; margin-bottom:5px">Main Menu</button>
+            <button type="button" id="restart" class="btn" onclick="Again()" style="height:30px; border:1px solid black; float:left();background-color:green; margin-bottom:5px">Restart</button>
+            <div id="score" class="btn" style="height:30px; border:1px solid black; background-color:grey; margin-bottom:5px; text-align:center; color:black"></div>
+        </div>
+        <div id="last">
+            <button type="button" class="mainmenu" onclick="MainMenu()" style="height:70px; margin-right:none; border:1px solid black; float:left(); background-color:green; margin-bottom:5px">Main</button>
+            <button type="button" id="restart2" class="btn" onclick="Again()" style="height:70px; margin-left:none;border:1px solid black; border-left:0.5px solid black;background-color:green; margin-bottom:5px">Restart</button>
+            <div id="rtext" class="btn" style="height:68px; line-height:70px; margin-right:5px;border:1px solid black; border-left:0.5px solid black;float:left;background-color:grey; margin-bottom:5px; text-align:center; color:black"></div>
+        </div>
+    </body>
+</html>
