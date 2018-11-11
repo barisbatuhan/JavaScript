@@ -1,0 +1,33 @@
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #084B8A;
+}
+
+#myCanvas{
+	border: 0px;
+	padding: 0px;
+	margin: auto;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#btn{
+	padding:5vw;
+    text-align: center;
+    background-color: darkgreen;
+    border-radius: 100%;
+    border:0px;
+    color: white;
+    font-family: Arial;
+    font-size:3vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+    
+}

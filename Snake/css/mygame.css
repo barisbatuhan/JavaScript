@@ -1,0 +1,18 @@
+body{
+    background-color: slateblue;
+    margin-top:10px;
+}
+.pri{
+    background-color: black;
+}
+
+.sec{
+    border: 1px solid black;
+    background-color: lightgrey;
+    float: left;
+}
+
+#score{
+    padding-top:10px;
+    font-size: 20px;
+}
