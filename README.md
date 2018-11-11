@@ -2,22 +2,22 @@ This repository includes some responsive sytle graphical web browser based games
 
 1 - Pong
 
-![Screenshot](pong.png)
+![Screenshot](Screenshots/pong.png)
 
 2 - Snake
 
-![Screenshot](snake.png)
+![Screenshot](Screenshots/snake.png)
 
 3 - Flying Bird
 
-![Screenshot](flying.png)
+![Screenshot](Screenshots/flying.png)
 
 4 - Frog
 
-![Screenshot](frog.png)
+![Screenshot](Screenshots/frog.png)
 
 5 - A responsive website designed by me that combines all the games I made
 
-![Screenshot](Website.png)
+![Screenshot](Screenshots/Website.png)
 
 Moreover, also some basic unit testing codes in JS based on Jasmine, Mocha, Sinon and Jest are placed.
